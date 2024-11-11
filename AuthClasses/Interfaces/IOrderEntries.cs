@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace WebAPI.Interfaces
+namespace CSFinal.Interfaces
 {
     public interface IOrderEntries
     {

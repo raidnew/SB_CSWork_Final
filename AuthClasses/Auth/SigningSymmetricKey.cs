@@ -1,8 +1,8 @@
-﻿using CSWork21_WebAPI.Interfaces;
+﻿using CSFinal.Interfaces;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
-namespace CSWork21_WebAPI.Auth
+namespace CSFinal.Auth
 {
     public class SigningSymmetricKey : IJwtSigningEncodingKey, IJwtSigningDecodingKey
     {

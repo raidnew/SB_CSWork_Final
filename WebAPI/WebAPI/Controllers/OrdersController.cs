@@ -1,8 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 
 
-namespace CSWork21_WebAPI.Controllers
+namespace CSFinal_WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

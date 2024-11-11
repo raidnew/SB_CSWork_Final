@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using WebAPI.Interfaces;
+using CSFinal.Interfaces;
 
-namespace AuthClasses.Models
+namespace CSFinal.Models
 {
     public class Order : IOrder
     {

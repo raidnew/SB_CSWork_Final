@@ -1,4 +1,4 @@
-﻿namespace WebAPI.Interfaces
+﻿namespace CSFinal.Interfaces
 {
     public interface IOrder
     {

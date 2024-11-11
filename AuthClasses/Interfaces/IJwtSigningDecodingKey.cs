@@ -1,6 +1,6 @@
 ﻿using Microsoft.IdentityModel.Tokens;
 
-namespace CSWork21_WebAPI.Interfaces
+namespace CSFinal.Interfaces
 {
     public interface IJwtSigningDecodingKey
     {

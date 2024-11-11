@@ -1,29 +1,27 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CSFinal_WebClient.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using WebClient.Models;
 
-namespace WebClient.Controllers
+namespace CSFinal_WebClient.Controllers
 {
-    public class HomeController : Controller
+    public class AuthController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<AuthController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public AuthController(ILogger<AuthController> logger)
         {
             _logger = logger;
         }
 
-        public IActionResult Index()
+        [HttpGet]
+        public IActionResult Login()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        [HttpGet]
+        public IActionResult Registration()
         {
             return View();
         }

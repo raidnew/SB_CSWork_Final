@@ -1,4 +1,4 @@
-﻿namespace CSWork21_WebAPI.Auth
+﻿namespace CSFinal.Auth
 {
     public class AuthenticationRequest
     {

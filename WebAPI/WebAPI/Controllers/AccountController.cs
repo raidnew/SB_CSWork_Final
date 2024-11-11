@@ -1,15 +1,13 @@
-﻿using CSWork21.Auth;
-using CSWork21_WebAPI.Auth;
-using CSWork21_WebAPI.Interfaces;
+﻿using CSFinal.Auth;
+using CSFinal.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
+using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
-using System;
-using System.Threading.Tasks;
 
-namespace WebAPI.Controllers
+namespace CSFinal_WebAPI.Controllers
 {
 
     /**
@@ -35,8 +33,8 @@ namespace WebAPI.Controllers
             };
 
             var token = new JwtSecurityToken(
-                issuer: "CSWork21API",
-                audience: "CSWork21",
+                issuer: "CSFinalAPI",
+                audience: "CSFinal",
                 claims: claims,
                 expires: DateTime.Now.AddMinutes(5),
                 signingCredentials: new SigningCredentials(

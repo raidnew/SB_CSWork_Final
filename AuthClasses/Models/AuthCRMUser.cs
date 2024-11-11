@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace CSWork21_WebAPI.Models
+namespace CSFinal.Models
 {
     public class AuthCRMUser : IdentityUser
     {

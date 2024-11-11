@@ -1,9 +1,8 @@
-﻿using AuthClasses.Models;
-using CSWork21_WebAPI.Models;
+﻿using CSFinal.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace WebAPI.Context
+namespace CSFinal_WebAPI.Context
 {
     public class CrmDbContext : IdentityDbContext<AuthCRMUser>
     {
