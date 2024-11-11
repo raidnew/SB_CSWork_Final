@@ -8,7 +8,7 @@ namespace CSWork21_WebAPI.Auth
     {
         private readonly SymmetricSecurityKey _secretKey;
 
-        public string SigningAlgorithm { get; } = SecurityAlgorithms.None;
+        public string SigningAlgorithm { get; } = SecurityAlgorithms.HmacSha256;
 
         public SigningSymmetricKey(string key)
         {

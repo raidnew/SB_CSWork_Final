@@ -6,7 +6,7 @@ namespace CSWork21_WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ContactsController : ControllerBase
+    public class OrdersController : ControllerBase
     {
 
         [HttpGet]
